@@ -1,65 +1,136 @@
 # Hi there, I'm Pratik 👋
 
-![Profile Views](https://komarev.com/ghpvc/?username=pratik305&color=blueviolet)
+## 💼 Data Engineer | Analytics Engineering
 
-## 🚀 About Me
+**Data Engineer** with 1 year of experience building production data pipelines and analytics solutions. Currently focused on modern data stack technologies and scalable ETL/ELT architectures.
 
-- 🎓 **Information Technology Graduate** from the University of Mumbai.
-- 💻 **Data Scientist & AI Enthusiast** with experience in Machine Learning, Deep Learning,Data Wrangling,NLP.
-- 🎯 Interested in **NLP**, **Data Visualization**, and **Model Efficiency**.
-- 🏆 Kaggle Competitor: Achieved **top 368** in a recent competition.
-- 📚 Passionate about learning and sharing knowledge on AI and data science.
+## 🚀 Current Focus
 
-## 🛠️ Skills
+- 🏗️ Building end-to-end data pipelines with **Databricks** and **Delta Lake**
+- 📊 Designing **star schema** data warehouses and **semantic layers**
+- 📈 Creating executive-level dashboards in **Power BI**
+- 🔧 Implementing **medallion architecture** for data quality and governance
+- 🛠️ Modern data stack: **dbt**, **Snowflake**, **Airbyte**
 
-- **Programming Languages:** Python, SQL
-- **Libraries/Frameworks:** Pandas, NumPy, TensorFlow, Scikit-learn, PyTorch
-- **Databases:** MySQL, MongoDB
-- **Other Tools:** Git, Docker, Jupyter Notebooks
+## 🛠️ Technical Stack
 
-## 🔗 Connect with Me
+**Data Engineering**
+- **Platforms:** Databricks, Snowflake, Azure, AWS
+- **Processing:** Apache Spark (PySpark), Delta Lake, dbt (data build tool)
+- **Orchestration:** Airflow, Azure Data Factory
+- **Ingestion:** Airbyte, Fivetran
+- **Modeling:** Star Schema, Kimball methodology, dbt transformations
 
-- [Linkedin](https://www.linkedin.com/in/pratikjadhavlink/)
-- [Kaggle](https://www.kaggle.com/pratik250)
+**Languages & Databases**
+- **Languages:** Python, SQL
+- **Databases:** MySQL, PostgreSQL, MongoDB, Snowflake
+- **Libraries:** Pandas, NumPy, PySpark, yfinance
 
-## 📈 GitHub Stats
+**Analytics & Visualization**
+- **BI Tools:** Power BI (DAX, Power Query), Metabase
+- **Notebooks:** Databricks, Jupyter
 
-## 📈 GitHub Stats
+## 💡 Featured Projects
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=pratik305&show_icons=true&theme=radical)
- 
-## 🔥 Highlights
+### 🏆 End-to-End Sales Analytics Pipeline
+**Production-grade data engineering project** | [View Project](https://github.com/pratik305/Sales-Analysis-End-To-End)
 
-### 📊 Data Science Projects
-1. **[Project 1: News Summarization](https://github.com/pratik305/News_summarization)**
-   - The project aims to quickly convey the main ideas and essential details of a news story, eliminating the need to read the entire article, by utilizing the Hugging Face Google Pegasus pre-trained model and the CNN/Daily Mail dataset..
-   - An interactive website built with Flask displays the summarized content, with evaluation performed using ROUGE metrics.
+Built a complete analytics solution processing sales transactions with advanced dimensional modeling:
 
-2. **[Project 2: sagemaker-flight-prices-prediction](https://github.com/pratik305/sagemaker-flight-prices-prediction)**
-   - Developed machine learning project that can predict the price of flight based on date, duration, destination, airline. For this project we use aws sagemaker to train model and also deploy it using streamlit.
+**Architecture Highlights:**
+- **Medallion Architecture** (Bronze → Silver → Gold layers) for data quality
+- **Star Schema Design** with fact tables for sales transactions and refunds (separate grain)
+- **Semantic Layer** with reusable DAX measures for business metrics
+- **Executive Dashboards** tracking revenue, profitability, and operational KPIs
 
-3. **[Project 3: EDA on Terrosim](https://github.com/pratik305/LGMVIP-DataScience/blob/main/EDA_on_Terrorism.ipynb)**
-   - Comprehensive Data Analysis: Conducted an exploratory data analysis (EDA) on the Global Terrorism Database to uncover patterns, trends, and insights related to terrorist activities globally, including attacks by year, region, and target types.
+**Business Impact:**
+- Reduced reporting time from hours to minutes
+- Enabled self-service analytics for stakeholders
+- Established scalable foundation for future analytics needs
 
-   - Visual Insights and Risk Assessment: Utilized data visualization techniques to highlight the most affected countries, tactics used, and evolving threat levels, offering actionable insights for policymakers and security agencies.
-  
-4. **[Project 4: Image Classification Android App](https://github.com/pratik305/imageclassification)**
-   - The app uses machine learning algorithms to identify images, leveraging pre-trained model for accurate predictions on JPEG and PNG formats. Its user-friendly interface allows easy image selection from the device's camera or gallery.
-   - The app displays the top predicted labels for each image, providing users with clear classification results.
+**Tech Stack:** Databricks, Delta Lake, PySpark, Power BI, DAX
 
-### 🏅 Kaggle Competitions
-- **[Rohlik Orders Forecasting Challenge](https://www.kaggle.com/competitions/rohlik-orders-forecasting-challenge/overview)**
-  - Achieved ranking of 368 on the leaderboard.
-  - Engaging in this competition to forecast customer orders for the Rohlik online grocery store. The challenge involves leveraging time series analysis and machine learning techniques to improve order predictions.
+---
 
-## 🧑‍💻 Open Source Contributions
-- **[Codecademy - Adam Optimization Documentation](https://www.codecademy.com/resources/docs/ai/neural-networks/adam-optimization)**
-  - Authored detailed documentation for the Adam optimization algorithm. The contribution includes:
-  - **Overview**: Described the importance and usage of Adam optimization in machine learning.
-  - **Algorithm Details**: Provided an explanation of the algorithm's underlying mathematics, including momentum and adaptive learning rates.
-  - **Implementation**: Illustrated with code snippets to demonstrate how Adam can be used across popular ML frameworks like TensorFlow.
+### 📊 SaaS Analytics Platform with dbt & Snowflake
+**Modern data stack implementation** | [View on GitHub](https://github.com/pratik305/saas_dbt_analytics)
 
-## 📫 Get in Touch
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/pratikjadhavlink/) or send an email to [pratikjivnajadhav77@example.com] if you want to collaborate or just chat about data science and AI.
+End-to-end analytics pipeline for SaaS business metrics using industry-standard tools:
 
-Thanks for stopping by! 😄
+**Architecture:**
+- **Data Ingestion:** Airbyte connectors extracting data from PostgreSQL source
+- **Data Warehouse:** Snowflake for scalable cloud storage
+- **Transformation Layer:** dbt for SQL-based transformations with staging → marts flow
+- **Visualization:** Metabase dashboards for business intelligence
+
+**Key Features:**
+- Automated ELT pipeline with incremental loading
+- dbt models with tests and documentation
+- SaaS metrics tracking (MRR, churn, customer lifetime value)
+- Modular transformation layers for maintainability
+
+**Tech Stack:** Airbyte, Snowflake, dbt, Metabase, PostgreSQL, Docker
+
+---
+
+### 📈 Stock Market Data Lakehouse
+**Financial data pipeline with real-time ingestion** | [View on GitHub](https://github.com/pratik305/stock_finance_lakehouse)
+
+Lakehouse architecture for ingesting, processing, and analyzing stock market data:
+
+**Architecture:**
+- **Data Ingestion:** Real-time stock data via yfinance API
+- **Storage Layer:** Delta Lake for ACID transactions and time travel
+- **Processing:** PySpark for distributed data processing
+- **Analytics:** Jupyter notebooks for exploratory analysis
+
+**Capabilities:**
+- Historical and real-time stock price ingestion
+- Delta Lake tables with schema evolution support
+- Time-series analysis on stock performance
+- Scalable architecture for multiple ticker symbols
+
+**Tech Stack:** Delta Lake, PySpark, yfinance, Jupyter, Python
+
+---
+
+## 📊 Additional Projects
+
+### Data Science & ML (Academic/Learning)
+
+<details>
+<summary>Click to expand past projects</summary>
+
+1. **[News Summarization using Transformers](https://github.com/pratik305/News_summarization)**
+   - NLP project using Hugging Face Pegasus model on CNN/Daily Mail dataset
+   - Flask web interface with ROUGE metric evaluation
+
+2. **[Flight Price Prediction - AWS SageMaker](https://github.com/pratik305/sagemaker-flight-prices-prediction)**
+   - ML pipeline deployed on AWS SageMaker with Streamlit frontend
+   - Predicts flight prices based on date, duration, destination, airline
+
+3. **[Global Terrorism Database - EDA](https://github.com/pratik305/LGMVIP-DataScience/blob/main/EDA_on_Terrorism.ipynb)**
+   - Exploratory analysis uncovering patterns in terrorist activities
+   - Data visualization for risk assessment and trend analysis
+
+4. **[Image Classification Android App](https://github.com/pratik305/imageclassification)**
+   - Mobile ML app using pre-trained models for real-time image classification
+   - Supports JPEG/PNG with top-N prediction display
+
+</details>
+
+## 🏅 Achievements
+
+- 🥉 **Kaggle Competition:** Top 368 in Rohlik Orders Forecasting Challenge
+- 📝 **Open Source:** [Authored documentation](https://www.codecademy.com/resources/docs/ai/neural-networks/adam-optimization) for Adam optimization algorithm on Codecademy
+- 🎓 **B.Tech in Information Technology** - University of Mumbai
+
+## 📫 Let's Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/pratikjadhavlink/)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Profile-20BEFF?style=flat&logo=kaggle)](https://www.kaggle.com/pratik250)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=flat&logo=gmail)](mailto:pratikjivnajadhav77@example.com)
+
+---
+
+*Open to opportunities in Data Engineering, Analytics Engineering, and Modern Data Stack roles*
