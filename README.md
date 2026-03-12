@@ -2,15 +2,16 @@
 
 ## 💼 Data Engineer | Analytics Engineering
 
-**Data Engineer** with 1 year of experience building production data pipelines and analytics solutions. Currently focused on modern data stack technologies and scalable ETL/ELT architectures.
+**Business Data Analyst** with 1 year of experience including data engineering responsibilities—automated ETL workflows, pipeline development, and analytics solutions. Built production data pipelines with Databricks and dbt. Actively seeking **Data Engineering** and **Analytics Engineering** opportunities.
+
 
 ## 🚀 Current Focus
 
 - 🏗️ Building end-to-end data pipelines with **Databricks** and **Delta Lake**
 - 📊 Designing **star schema** data warehouses and **semantic layers**
-- 📈 Creating executive-level dashboards in **Power BI**
+- 📈 Creating executive-level dashboards in **Power BI** and **Metabase**
 - 🔧 Implementing **medallion architecture** for data quality and governance
-- 🛠️ Modern data stack: **dbt**, **Snowflake**, **Airbyte**
+- 🛠️ Modern data stack: **dbt**, **Snowflake**, **postgreSql**
 
 ## 🛠️ Technical Stack
 
@@ -52,24 +53,24 @@ Built a complete analytics solution processing sales transactions with advanced 
 
 ---
 
-### 📊 SaaS Analytics Platform with dbt & Snowflake
-**Modern data stack implementation** | [View on GitHub](https://github.com/pratik305/saas_dbt_analytics)
+### 📊 SaaS Analytics with dbt + Databricks
+**dbt transformation pipeline for SaaS metrics** | [View on GitHub](https://github.com/pratik305/saas_dbt_analytics)
 
-End-to-end analytics pipeline for SaaS business metrics using industry-standard tools:
+dbt project implementing analytics transformations for SaaS business intelligence:
 
-**Architecture:**
-- **Data Ingestion:** Airbyte connectors extracting data from PostgreSQL source
-- **Data Warehouse:** Snowflake for scalable cloud storage
-- **Transformation Layer:** dbt for SQL-based transformations with staging → marts flow
-- **Visualization:** Metabase dashboards for business intelligence
+**Project Structure:**
+- **Staging Models:** Clean and standardize raw source data
+- **Intermediate Models:** Business logic and entity relationships
+- **Marts:** Final analytics-ready models for reporting
+- **Data Quality:** dbt tests for validation and data integrity
 
-**Key Features:**
-- Automated ELT pipeline with incremental loading
-- dbt models with tests and documentation
-- SaaS metrics tracking (MRR, churn, customer lifetime value)
-- Modular transformation layers for maintainability
+**Key Transformations:**
+- Customer dimension with lifecycle tracking
+- Subscription fact tables with state transitions
+- Revenue metrics (MRR, ARR calculation logic)
+- Incremental models for efficient processing
 
-**Tech Stack:** Airbyte, Snowflake, dbt, Metabase, PostgreSQL, Docker
+**Tech Stack:** dbt Core, PostgreSQL, SQL, Jinja templating, Databricks, lakehouse
 
 ---
 
@@ -90,7 +91,7 @@ Lakehouse architecture for ingesting, processing, and analyzing stock market dat
 - Time-series analysis on stock performance
 - Scalable architecture for multiple ticker symbols
 
-**Tech Stack:** Delta Lake, PySpark, yfinance, Jupyter, Python
+**Tech Stack:** Delta Lake, PySpark, yfinance, Jupyter, Python, Databricks 
 
 ---
 
