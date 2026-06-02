@@ -2,7 +2,7 @@
 
 ## 💼 Data Engineer | Analytics Engineering
 
-**Business Data Analyst** with 1 year of experience including data engineering responsibilities—automated ETL workflows, pipeline development, and analytics solutions. Built production data pipelines with Databricks and dbt. Actively seeking **Data Engineering** and **Analytics Engineering** opportunities.
+**Data Engineer** with 1 year of experience including data engineering responsibilities—automated ETL workflows, pipeline development, and analytics solutions. Built production data pipelines with Databricks and dbt. Actively seeking **Data Engineering** and **Analytics Engineering** opportunities.
 
 
 ## 🚀 Current Focus
